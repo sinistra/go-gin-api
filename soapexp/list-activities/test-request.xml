@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.aapt.com.au/FrontierLink/xsd">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <xsd:ListActivitiesRequest>
+         <xsd:provisioningCaseID>CA00002</xsd:provisioningCaseID>
+      </xsd:ListActivitiesRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

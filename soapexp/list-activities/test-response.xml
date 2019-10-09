@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <ListActivitiesResponse xmlns="http://www.aapt.com.au/FrontierLink/xsd">
+            <productOrderID>2000001</productOrderID>
+            <productOrderActivity>
+                <activityType>Order Submission</activityType>
+                <actualStartDate>2012-07-09</actualStartDate>
+                <actualEndDate>2012-07-09</actualEndDate>
+            </productOrderActivity>
+            <productOrderActivity>
+                <activityType>Order Acceptance</activityType>
+                <actualStartDate>2012-07-09</actualStartDate>
+                <actualEndDate>2012-07-09</actualEndDate>
+            </productOrderActivity>
+            <productOrderActivity>
+                <activityType>Order Withdrawal</activityType>
+                <actualStartDate>2012-07-13</actualStartDate>
+                <actualEndDate>2012-07-13</actualEndDate>
+                <activityNoteList>
+                    <activityNote>
+                        <notes>Our carrier has advised that this service has Incompatible Infrastructure to provide SSS
+                            for this service.
+                        </notes>
+                        <creationDate>2012-07-13</creationDate>
+                    </activityNote>
+                </activityNoteList>
+            </productOrderActivity>
+            <serviceOrderList>
+                <serviceOrder>
+                    <serviceOrderDetail>
+                        <serviceOrderID>5000001</serviceOrderID>
+                        <serviceOrderType>NWB Link</serviceOrderType>
+                    </serviceOrderDetail>
+                    <serviceOrderActivity>
+                        <activityType>Design Service</activityType>
+                        <actualStartDate>2012-07-09</actualStartDate>
+                        <actualEndDate>2012-07-09</actualEndDate>
+                    </serviceOrderActivity>
+                    <serviceOrderActivity>
+                        <activityType>Build Service</activityType>
+                    </serviceOrderActivity>
+                </serviceOrder>
+                <serviceOrder>
+                    <serviceOrderDetail>
+                        <serviceOrderID>1000001</serviceOrderID>
+                        <serviceOrderType>Standard Access</serviceOrderType>
+                    </serviceOrderDetail>
+                    <serviceOrderActivity>
+                        <activityType>Design Service</activityType>
+                        <actualStartDate>2012-07-09</actualStartDate>
+                        <actualEndDate>2012-07-09</actualEndDate>
+                    </serviceOrderActivity>
+                    <serviceOrderActivity>
+                        <activityType>Access Service Confirmation</activityType>
+                        <actualStartDate>2012-07-09</actualStartDate>
+                        <activityNoteList>
+                            <activityNote>
+                                <notes>DSL Order Rejected by Telstra.
+                                    Rejection Notes: Unable to Process
+                                    ID: 725156583
+                                    09/07/2012 15:33:02
+                                    Warned Product
+                                    Securitel may exist on this line
+                                    ID: 725157625
+                                    09/07/2012 15:35:36
+                                    B2B Product Request notification
+                                    B2B 151419333 in delayed mode
+                                    ID: 725157634
+                                    09/07/2012 15:35:37
+                                    Product Compatibility Check
+                                    New SSS
+                                    The actioned product is incompatible with products on the service.
+                                    ID: 725157635
+                                    09/07/2012 15:35:37
+                                    Invalid Advice for Warned Product
+                                    0755300000 Securitel does not exist on this service. Request Item will be
+                                    provisioned as requested.
+                                    ID: 725157636
+                                    09/07/2012 15:35:37
+                                    B2B Unable to Process Request
+                                    LOLIG
+                                    Service Number: 0755300000
+                                    Unable To Process Notes: Unable to Process LOLIG Request
+                                </notes>
+                                <creationDate>2012-07-09</creationDate>
+                            </activityNote>
+                            <activityNote>
+                                <notes>DSL Order Rejected by Telstra.
+                                    Rejection Notes: Unable to Process
+                                    ID: 725979326
+                                    12/07/2012 14:48:43
+                                    Warned Product
+                                    Securitel may exist on this line
+                                    ID: 725980059
+                                    12/07/2012 14:51:41
+                                    B2B Product Request notification
+                                    B2B 151608784 in delayed mode
+                                    ID: 725980062
+                                    12/07/2012 14:51:42
+                                    Product Compatibility Check
+                                    New SSS
+                                    The actioned product is incompatible with products on the service.
+                                    ID: 725980063
+                                    12/07/2012 14:51:42
+                                    Invalid Advice for Warned Product
+                                    0755300000 Securitel does not exist on this service. Request Item will be
+                                    provisioned as requested.
+                                    ID: 725980064
+                                    12/07/2012 14:51:42
+                                    B2B Unable to Process Request
+                                    LOLIG
+                                    Service Number: 0755300000
+                                    Unable To Process Notes: Unable to Process LOLIG Request
+                                </notes>
+                                <creationDate>2012-07-12</creationDate>
+                            </activityNote>
+                        </activityNoteList>
+                    </serviceOrderActivity>
+                    <serviceOrderActivity>
+                        <activityType>Build Service</activityType>
+                    </serviceOrderActivity>
+                    <serviceOrderActivity>
+                        <activityType>Access Service Delivery</activityType>
+                    </serviceOrderActivity>
+                </serviceOrder>
+            </serviceOrderList>
+        </ListActivitiesResponse>
+    </soapenv:Body>
+</soapenv:Envelope>
